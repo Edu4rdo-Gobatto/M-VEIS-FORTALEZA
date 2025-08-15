@@ -1,12 +1,12 @@
-import { Promo } from "../sections/promoCentral";
+import { TopMidle } from "../sections/topCentral";
 
 export function Home() {
 
   return (
 
-    <div className="p-0">
+    <div>
 
-    <Promo/>
+    <TopMidle/>
       
     </div>
 
