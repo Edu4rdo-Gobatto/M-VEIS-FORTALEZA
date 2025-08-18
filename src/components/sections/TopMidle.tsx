@@ -1,4 +1,6 @@
+
 export function TopMidle() {
+  
   const produtos = [
     { nome: "Clássicos", img: "/fotos/classico.jpg" },
     { nome: "Demolição", img: "/fotos/demolicao.jpg" },
