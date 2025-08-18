@@ -1,4 +1,5 @@
-import { TopMidle } from "../sections/topCentral";
+import { TopMidle } from "../sections/TopMidle";
+import { Promo } from "../sections/promo";
 
 export function Home() {
 
@@ -7,6 +8,7 @@ export function Home() {
     <div>
 
     <TopMidle/>
+    <Promo/>
       
     </div>
 

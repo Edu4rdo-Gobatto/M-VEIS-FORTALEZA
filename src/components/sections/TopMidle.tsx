@@ -8,7 +8,7 @@ export function TopMidle() {
   return (
     <div className="flex flex-col lg:flex-row items-center justify-center bg-[#e8ebee] gap-10 p-6">
       
-      <div className="flex flex-col justify-center max-w-[400px] p-4 -mt-20">
+      <div className="flex flex-col justify-center max-w-[400px] p-4">
         <h2 className="text-[#eeb250] font-bold text-xl">
           Qualidade e confiança para seu lar.
         </h2>
