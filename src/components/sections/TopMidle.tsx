@@ -21,7 +21,7 @@ export function TopMidle() {
           Conte com nosso atendimento especializado para encontrar móveis que realmente combinam com você e seu lar.
         </p>
         <a 
-          href="https://wa.me/559999999999" 
+          href="https://wa.me/5566984184488" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="flex items-center text-green-500 font-bold mt-5 hover:underline"
@@ -35,15 +35,18 @@ export function TopMidle() {
         className="flex flex-col items-center justify-center bg-cover bg-center h-full w-full min-h-[450px] max-w-[950px] rounded-xl overflow-hidden"
         style={{ backgroundImage: "url('/fotos/sala1.jpg')" }}
       >
-        <h3 className="mb-10 px-4 py-2 text-2xl uppercase text-white bg-[#ced8e1] bg-opacity-80 rounded-xl border-b-2 border-white">
-          Busque o seu interior!
-        </h3>
+        <div className="flex flex-col mb-10 px-4 py-2 text-2xl uppercase text-white bg-[#84abcd] bg-opacity-80 rounded-xl border-b-2 border-white">
+          <div className="flex gap-3">
+            <input type="text" placeholder="Pesquise" className="p-0 border-0 focus:outline-0"/>
+            <button><img src="/fotos/search.png" alt="" className="cursor-pointer"/></button>
+          </div>
+        </div>
         
         <div className="flex flex-wrap items-center justify-center gap-6 px-4">
           {produtos.map((produto, index) => (
             <div 
               key={index}
-              className="bg-[#ced8e1] shadow-[0_0_50px] shadow-blue-300 text-white flex flex-col items-center justify-center border-0 rounded-2xl p-3 hover:scale-105 transition-transform"
+              className="bg-[#84abcd] shadow-[0_0_50px] shadow-blue-300 text-white flex flex-col items-center justify-center border-0 rounded-2xl p-3 hover:scale-105 transition-transform"
             >
               <span className="font-medium">{produto.nome}</span>
               <img 

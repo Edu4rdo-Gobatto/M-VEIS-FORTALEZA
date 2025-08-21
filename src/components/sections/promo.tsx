@@ -35,16 +35,15 @@ export function Promo() {
     <div className="bg-[#beb8ab] py-10">
       
       <div className="flex flex-col items-center justify-center mb-8">
-        <p className="px-8 py-4 text-2xl rounded-2xl bg-[#6199d8] text-white shadow-md">
+        <p className="px-8 py-4 text-2xl rounded-2xl bg-[#a57d5e] text-white shadow-md">
           Aproveite nossas melhores ofertas!
         </p>
       </div>
 
       <div className="flex overflow-x-auto scrollbar-hide items-center justify-center gap-6">
-  {products.map((item) => (
-    <ProductCard key={item.id} product={item} />
-  ))}
-</div>
+        {products.map((item) => (
+        <ProductCard key={item.id} product={item} />))}
+      </div>
 
     </div>
   );
